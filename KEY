@@ -1,0 +1,4 @@
+COSMOS_CONN = "*****"
+BLOB_CONN = "*****"
+
+the COSMOS_CONN and BLOB_CONN key is not share as its confidencial

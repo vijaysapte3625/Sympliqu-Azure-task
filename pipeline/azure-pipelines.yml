@@ -1,0 +1,12 @@
+trigger:
+  branches:
+    include:
+      - main
+
+jobs:
+- job: BuildAndDeploy
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - script: echo "Simulated deployment step"
+    displayName: 'Deploy infrastructure and functions'
