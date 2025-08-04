@@ -4,7 +4,7 @@ from azure.cosmos import CosmosClient
 from azure.storage.blob import BlobServiceClient
 import logging
 
-COSMOS_CONN = "*****;"
+COSMOS_CONN = "*****"
 BLOB_CONN = "*****"
 DB_NAME = "billingdb"
 COL_NAME = "records"
